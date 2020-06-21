@@ -1,0 +1,58 @@
+~~Arithmetic Operators~~
++           add
+-           subtract
+*           multiply
+/           divide
+%           modulus
+++          increment
+--          decrement
+
+~~Relational Operators~~
+==          equal
+!=          not equal
+>           greater than
+<           less than
+>=          greater than equal
+<=          less than equal
+
+~~Logical Operators~~
+&&          logical and
+||          logical or
+!           logical not
+? :         logical ternary
+
+~~Bitwise Operators~~
+&           bitwise and
+|           bitwise or
+^           bitwise xor
+~           bitwise one's complement
+<<          bitwise shift left
+>>          bitwise shift right
+
+~~Assignment Operators~~
+=           assign equal
++=          assign plus-equal
+-=          assign minus-equal
+*=          assign multiply-equal
+/=          assign divide-equal
+%=          assign modulus-equal
+<<=         assign shift-left-equal
+>>=         assign shift-right-equal
+&=          assign and-equal
+^=          assign xor-equal
+|=          assign or-equal
+
+~~Data Operators~~
+sizeof()    get the size of
+[]          array subscript
+&           the address of
+*           the value of
+->          structure dereference
+.           structure reference
+
+~~Miscellaneous Operators~~
+,           comma
+()          parentheses
+{}          braces
+:           colon
+//          single line comment

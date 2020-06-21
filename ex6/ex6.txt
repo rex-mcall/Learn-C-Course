@@ -1,0 +1,135 @@
+~~Keywords~~
+auto            give a local variable a local lifetime
+break           exit out of a compound statement
+case            a branch in a switch statement
+char            character data type
+const           makes a variable unmodifiable
+continue        continue to the top of the loop
+default         default branch in a switch statement
+do              start a do-while loop
+double          a double floating point data type
+else            an else branch of an if-statement
+enum            define a set of int constants
+extern          declare that an identifier is defined externally
+float           a floating point data type
+for             start a for loop
+goto            jump to a label
+if              starts an if-statement
+int             an integer data type
+long            a long data type
+register        declare that a variable is to be stored in a CPU register
+return          return from a function
+short           a short data type
+signed          a signed modifier for integer data types
+sizeof          determine the size of the data
+static          preserve a variable after its scope exits
+struct          combine variable into a single record
+switch          create a switch-statement
+typedef         create a new type
+union           start a union-statement
+unsigned        an unsigned modifier for integer data types
+void            declare that a data type is empty
+volatile        declare that a variable might be modified elsewhere
+while           start a while-loop
+
+
+~~If-Statement~~
+if(TEST)
+{
+    CODE;
+}
+else if(TEST)
+{
+    CODE;
+}
+else
+{
+    CODE;
+}
+
+
+
+~~Switch-Statement~~
+switch(OPERAND)
+{
+    case CONSTANT:
+        CODE;
+        break;
+    default:
+        CODE;
+}
+
+
+
+~~While Loop~~
+while(TEST)
+{
+    CODE;
+}
+
+
+
+~~Break~~
+while(TEST)
+{
+    if(OTHER_TEST)
+    {
+        break;
+    }
+}
+
+
+
+~~Do-While~~
+do
+{
+    CODE;
+}
+while(TEST);
+
+~~For Loop~~
+for(INIT, TEST, POST)
+{
+    CODE;
+}
+
+
+
+~~goto~~
+if(ERROR_TEST)
+{
+    goto fail;
+}
+
+fail:
+    CODE;
+
+
+
+~~Function~~
+TYPE NAME (ARG1, ARG2, ...)
+{
+    CODE;
+    return VALUE;
+}
+
+~~Struct~~
+struct NAME
+{
+    ELEMENTS;
+}
+[VARIABLE_NAME]
+
+typedef struct [STRUCT_NAME]
+{
+    ELEMENTS;
+}
+IDENTIFIER;
+
+
+~~Union~~
+union NAME
+{
+    ELEMENTS;
+}
+[VARIABLE_NAME]
