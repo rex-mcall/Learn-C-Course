@@ -11,32 +11,32 @@ int main (int argc, char * argv[])
         char letter = argv[1][i];
 
         switch (letter) {
-            case 'a':
+            case 'a': //intentional fallthrough
             case 'A':
                 printf("%d: 'A'\n", i);
                 break;
 
-            case 'e':
+            case 'e': //intentional fallthrough
             case 'E':
                 printf("%d: 'E'\n", i);
                 break;
             
-            case 'i':
+            case 'i': //intentional fallthrough
             case 'I':
                 printf("%d: 'I'\n", i);
                 break;
 
-            case 'o':
+            case 'o': //intentional fallthrough
             case 'O':
                 printf("%d: 'O'\n", i);
                 break;
 
-            case 'u':
+            case 'u': //intentional fallthrough
             case 'U':
                 printf("%d: 'U'\n", i);
                 break;
 
-            case 'y':
+            case 'y': //intentional fallthrough
             case 'Y':
                 if (i > 2) {
                     //it's only sometimes Y
