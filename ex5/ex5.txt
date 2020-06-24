@@ -43,10 +43,10 @@
 |=          assign or-equal
 
 ~~Data Operators~~
-sizeof()    get the size of
+sizeof()    get the size of, in bytes
 []          array subscript
 &           the address of
-*           the value of
+*           the value of, used when you are changing the value of something and are not chaging the pointer
 ->          structure dereference
 .           structure reference
 
@@ -56,3 +56,4 @@ sizeof()    get the size of
 {}          braces
 :           colon
 //          single line comment
+*           in variable declaration, this means that the variable is a pointer
